@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+body {
+  /* width: 1440px; */
+  /* height: auto; */
+  font-family: "Open Sans", sans-serif;
+}
+.header1-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/bg-hero-desktop.svg);
+}
+
+.logo-container {
+  height: 20%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding: 40px;
+}
+.btn-try {
+  padding: 10px 50px;
+  margin-right: 40px;
+  border-radius: 30px;
+  border: none;
+  color: hsl(208, 11%, 55%);
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px 15px 0.5px hsl(208, 11%, 55%);
+}
+.btn-try:hover {
+  border: 1px solid hsl(208, 11%, 55%);
+}
+.header-text-image {
+  display: flex;
+  align-items: center;
+  height: 80%;
+}
+.charts {
+  width: 80%;
+  padding-left: 150px;
+}
+
+.header-text {
+  width: 50%;
+}
+h1 {
+  font-size: 50px;
+  padding: 0px 0px 20px 40px;
+  font-family: "Poppins", sans-serif;
+}
+.header-text-small {
+  padding: 0 40px;
+  line-height: 2;
+}
+.btn-free {
+  padding: 20px 65px;
+  margin: 40px 0 0 40px;
+  border-radius: 40px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  cursor: pointer;
+}
+.btn-free:hover {
+  background-color: #b30071;
+  transition: all 0.4s;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+  position: relative;
+}
+.main-container {
+  height: 500px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px hsla(209, 11%, 55%, 0.26);
+
+  display: flex;
+  align-items: center;
+}
+.content-in-main {
+  width: 80%;
+}
+.content-image {
+  width: 60%;
+  padding-left: 150px;
+}
+h2 {
+  font-size: 35px;
+  margin: 0 0 30px 100px;
+}
+.content-in-main-text {
+  margin-left: 100px;
+  line-height: 2;
+}
+.mrgn-rght {
+  margin-right: 40px;
+}
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 250px;
+}
+.absolute-container {
+  height: 300px;
+  width: 900px;
+  position: absolute;
+  background-color: #fff;
+  bottom: -20%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 0px 0px 15px 0px hsla(209, 11%, 55%, 0.26);
+}
+.h2-footer {
+  text-align: center;
+  margin: 0;
+  padding: 70px 0 0 0;
+}
+.btn-footer {
+  padding: 20px 70px;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+  width: 40%;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  cursor: pointer;
+}
+.btn-footer:hover {
+  background-color: #b30071;
+  transition: all 0.4s;
+}
