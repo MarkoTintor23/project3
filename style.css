@@ -144,3 +144,44 @@ footer {
   background-color: #b30071;
   transition: all 0.4s;
 }
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer-content {
+  padding: 180px 0 0 50px;
+  flex-basis: 100%;
+}
+.footer-img {
+  filter: brightness(0) invert(1);
+  padding-bottom: 30px;
+}
+.footer-text {
+  color: hsl(193, 100%, 96%);
+  line-height: 2.5;
+  font-size: 15px;
+}
+
+ion-icon {
+  padding-right: 20px;
+}
+.border {
+  color: hsl(193, 100%, 96%);
+  border: 1px solid hsl(193, 100%, 96%);
+  padding: 4px;
+  border-radius: 20px;
+}
+.social {
+  display: flex;
+  gap: 10px;
+}
+.copyright {
+  color: hsl(193, 100%, 96%);
+  text-align: right;
+  margin: 30px 30px 0 0;
+  font-size: 12px;
+}
+.padding {
+  line-height: normal;
+}
